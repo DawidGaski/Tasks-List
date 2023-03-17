@@ -5,3 +5,73 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
+
+.body {
+    background-color: rgb(233, 233, 233);
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.header {
+    margin: 5px 10%
+}
+
+.section {
+    background-color: white;
+    border: solid;
+    border-color: rgb(177, 177, 177);
+    padding: 5px;
+    margin: 5px 10%
+}
+
+.section__header {
+    border-bottom: solid 1px rgb(132, 130, 130);
+}
+
+.form__buttonDone {
+    background-color: rgb(18, 114, 18);
+    border-radius: 10%;
+    border-color: whitesmoke;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.form__buttonRemove {
+    background-color: rgb(200, 17, 17);
+    border-radius: 10%;
+    border-color: whitesmoke;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.form__buttonDone:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__buttonRemove:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.task__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 15px;
+    align-items: center;
+    justify-content: start;
+    border-bottom: solid 1px rgb(132, 130, 130);
+    margin: 1px
+}
+
+.task__decoration {
+    text-decoration: line-through;
+    color: rgb(132, 130, 130);
+}
+
+.section__ul {
+    padding-inline-start: 0px;
+}
