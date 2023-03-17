@@ -1,14 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "stworzyć apke",
-            done: false,
-        },
-        {
-            content: "skończyć oglądanie",
-            done: true,
-        },
-    ];
+    const tasks = [];
 
     const addNewTasks = (newTaskContent) => {
         tasks.push({
