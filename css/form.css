@@ -25,3 +25,14 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.form__input {
+    padding: 5px;
+}
+
+.form__button {
+    background-color: teal;
+    color: white;
+    font-size: large;
+    padding: 5px;
+}
