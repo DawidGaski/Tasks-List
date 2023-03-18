@@ -1,0 +1,14 @@
+.task__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 15px;
+    align-items: center;
+    justify-content: start;
+    border-bottom: solid 1px rgb(132, 130, 130);
+    margin: 1px
+}
+
+.task__decoration {
+    text-decoration: line-through;
+    color: rgb(132, 130, 130);
+}

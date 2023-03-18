@@ -1,0 +1,27 @@
+.form__buttonDone {
+    background-color: rgb(18, 114, 18);
+    border-radius: 10%;
+    border-color: whitesmoke;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.form__buttonRemove {
+    background-color: rgb(200, 17, 17);
+    border-radius: 10%;
+    border-color: whitesmoke;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.form__buttonDone:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__buttonRemove:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
