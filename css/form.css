@@ -48,4 +48,9 @@
     color: white;
     font-size: large;
     padding: 5px;
+    transition: 1s;
+}
+
+.form__button:hover {
+    transform: scale(1.25);
 }
