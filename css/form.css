@@ -30,11 +30,13 @@
 }
 
 .form__buttonDone:hover {
+    background-color: rgb(20, 129, 20);
     font-weight: bold;
     cursor: pointer;
 }
 
 .form__buttonRemove:hover {
+    background-color: rgb(218, 18, 18);
     font-weight: bold;
     cursor: pointer;
 }
@@ -44,6 +46,7 @@
 }
 
 .form__button {
+    border: none;
     background-color: teal;
     color: white;
     font-size: large;
@@ -52,5 +55,6 @@
 }
 
 .form__button:hover {
+    background-color: rgb(1, 152, 152);
     transform: scale(1.25);
 }
