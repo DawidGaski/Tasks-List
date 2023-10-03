@@ -12,3 +12,7 @@
     text-decoration: line-through;
     color: rgb(132, 130, 130);
 }
+
+.task__hidden {
+    display: none;
+}
