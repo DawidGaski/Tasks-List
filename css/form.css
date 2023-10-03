@@ -44,14 +44,20 @@
 }
 
 .form__input {
+    margin: 10px;
+    margin-right: 5px;
     padding: 5px;
+    border: solid;
+    border-color: hsl(0, 1%, 89%);
 }
 
 .form__button {
     border: none;
     background-color: teal;
     color: white;
-    font-size: large;
+    font-size: medium;
+    margin: 10px;
+    margin-left: 5px;
     padding: 5px;
     transition: 1s;
 }

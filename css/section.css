@@ -1,13 +1,21 @@
 .section {
     background-color: white;
     border: solid;
-    border-color: rgb(177, 177, 177);
+    border-color: hsl(0, 1%, 89%);
     padding: 5px;
     margin: 5px 10%
 }
 
 .section__header {
-    border-bottom: solid 1px rgb(132, 130, 130);
+    border-bottom: solid 1px hsl(0, 1%, 89%);
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__header--buttons {
+    font-size: medium;
 }
 
 .section__ul {
