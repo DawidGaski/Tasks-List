@@ -14,8 +14,23 @@
     justify-content: space-between;
 }
 
+@media (max-width: 767px) {
+    .section__header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .section__header--buttons {
     font-size: medium;
+}
+
+@media (max-width: 767px) {
+    .section__header--buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .section__ul {
