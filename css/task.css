@@ -5,7 +5,10 @@
     align-items: center;
     justify-content: start;
     border-bottom: solid 1px hsl(0, 1%, 89%);
-    margin: 1px
+    margin: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
 
 .task__decoration {

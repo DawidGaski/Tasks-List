@@ -7,6 +7,7 @@
 @media (max-width: 767px) {
     .form {
         grid-template-columns: 1fr;
+        grid-gap: 5px;
     }
 }
 
